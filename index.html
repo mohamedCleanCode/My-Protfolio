@@ -20,13 +20,13 @@
 
 <body>
     <!-- Scroll Buttn  -->
-    <div class="scroll-up">
-        <i class="fa-solid fa-chevron-up up"></i>
-    </div>
+
+    <a href="#header" class="scroll-up"><i class="fa-solid fa-chevron-up up"></i></a>
+
     <!-- Scroll Buttn  -->
 
     <!-- Start Header  -->
-    <div class="header">
+    <div class="header" id="header">
         <div class="container">
             <div class="logo">
                 <h2><a href="#home">Mohamed</a></h2>
@@ -65,19 +65,13 @@
                             interfaces.</p>
                     </div>
                     <div class="box">
-                        <p>Contact</p>
-                        <p>Egypt, Cairo, Nasr City.</p>
-                        <p>m635379@gmail.com</p>
-                        <p>(+2) 010 9363 8228</p>
-                    </div>
-                    <div class="box">
                         <p>Services</p>
                         <p>UI/Ux Design.</p>
                         <p>Frontend Developer.</p>
+                        <p>Backend Developer.</p>
                     </div>
                 </div>
-                <img src="imgs/man.png" alt="logo" class="center">
-                <div class="right">
+                <div class="center">
                     <div class="box">
                         <p>Years of Experinece</p>
                         <p>01+</p>
@@ -85,6 +79,14 @@
                     <div class="box">
                         <p>compleated Projects</p>
                         <p>14+</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <p>Contact</p>
+                        <p>Egypt, Cairo, Nasr City.</p>
+                        <p>m635379@gmail.com</p>
+                        <p>(+2) 010 9363 8228</p>
                     </div>
                     <div class="box">
                         <p>Social Media</p>
@@ -146,10 +148,6 @@
                     <div class="skill">
                         <img src="imgs/gulpjs.png" alt="html">
                         <p>Gulp.js</p>
-                    </div>
-                    <div class="skill">
-                        <img src="imgs/html.png" alt="html">
-                        <p>HTML</p>
                     </div>
                     <div class="skill">
                         <img src="imgs/pugjs.png" alt="html">
@@ -215,7 +213,32 @@
 
     <!-- Start Projects -->
     <div class="projects" id="projects">
-        <div class="container"></div>
+        <div class="container">
+            <div class="main-title">
+                <h2>Projects</h2>
+                <p>My Favorite Projects</p>
+            </div>
+            <ul class="switcher">
+                <li class="active" data-cat=".all">All</li>
+                <li data-cat=".html-css">HTML, CSS</li>
+                <li data-cat=".js">JS</li>
+                <li data-cat=".bootstrap">Bootstrap</li>
+                <li data-cat=".sass">SASS</li>
+                <li data-cat=".jquery">JQuery</li>
+                <li data-cat=".react">React</li>
+
+            </ul>
+            <div class="gallery">
+                <a href="#"><img src="imgs/gallery/htmlcss/fylo.png" alt="Fylo" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/huddle.png" alt="Huddle" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/nekmit.png" alt="Nekmit" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/edi.png" alt="Editorial" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/elzero.png" alt="Elzero" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/kasper.png" alt="Kasper" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/leon.png" alt="Leon" class="all html-css"></a>
+                <a href="#"><img src="imgs/gallery/htmlcss/site.png" alt="Site" class="all html-css"></a>
+            </div>
+        </div>
     </div>
     <!-- End Projects -->
 
