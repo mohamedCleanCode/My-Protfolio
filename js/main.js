@@ -1,3 +1,15 @@
+// Bars
+let bars = document.querySelector(".bars");
+let openMenu = document.querySelector(".open-menu");
+bars.onclick = function (e) {
+  openMenu.classList.toggle("open");
+};
+document.addEventListener("click", (e) => {
+  if (e.target !== bars && openMenu.classList.contains("open")) {
+    openMenu.classList.toggle("open");
+  }
+});
+
 // Scroll To Top
 let scrollUp = document.querySelector(".scroll-up");
 window.onscroll = function () {
