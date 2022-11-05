@@ -168,10 +168,6 @@ a {
 }
 .menu {
   position: relative;
-  /*  */
-}
-.menu ul {
-  display: none;
 }
 .menu ul {
   position: absolute;
@@ -180,7 +176,15 @@ a {
   background-color: rgba(0, 0, 0, 0.575);
   border-radius: 6px;
   padding: 20px 0;
+  z-index: 100;
+  display: none;
 }
+.menu .open {
+  display: block;
+}
+/* .menu .close {
+  display: none;
+} */
 .menu ul::before {
   content: "";
   position: absolute;
