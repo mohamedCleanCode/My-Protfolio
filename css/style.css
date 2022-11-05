@@ -570,14 +570,81 @@ a {
 }
 /* End Gallery  */
 
-/* Start Animation */
-/* @keyframes up-down {
-  0%,
-  100% {
-    top: 0;
-  }
-  50% {
-    top: -50px;
-  }
-} */
-/* End Animation */
+.contact {
+  padding: 40px 0;
+  background-image: url(../imgs/contact.png);
+  background-size: contain;
+  min-height: 400px;
+}
+.contact .container > h2 {
+  color: var(--main-color);
+  font-size: 30px;
+}
+.contact form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  text-align: center;
+}
+.contact form .left {
+  flex-basis: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.contact form .right {
+  flex: 1;
+}
+.contact form .left input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid silver;
+  height: 40px;
+}
+.contact form .left input:focus {
+  outline: 1px solid var(--main-color);
+}
+.contact form .right textarea {
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+  margin-bottom: 15px;
+  border: 1px solid silver;
+}
+.contact form .right textarea:focus {
+  outline: 1px solid var(--main-color);
+}
+.contact form .right textarea:focus::placeholder {
+  opacity: 0;
+  transition: 1s;
+}
+.contact form .right input {
+  width: 100%;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+}
+/* End Contact  */
+
+/* Start Footer  */
+.footer {
+  background-color: rgba(0, 0, 0, 0.822);
+  padding: 10px 0;
+}
+.footer .container {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.footer i {
+  color: red;
+}
+.footer span {
+  font-size: 25px;
+  font-style: italic;
+}
+/* End Footer  */
