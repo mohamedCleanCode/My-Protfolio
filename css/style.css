@@ -521,6 +521,9 @@ a {
 /* End Projects  */
 
 /* Start Gallery  */
+.projects {
+  padding: 40px 0;
+}
 .projects .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -570,6 +573,7 @@ a {
 }
 /* End Gallery  */
 
+/* Start Contact  */
 .contact {
   padding: 40px 0;
   background-image: url(../imgs/contact.png);
