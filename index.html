@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Fontawesome File  -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- Wow File  -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Main Css File  -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Googl Fonts  -->
@@ -26,7 +28,7 @@
     <!-- Scroll Buttn  -->
 
     <!-- Start Header  -->
-    <div class="header" id="header">
+    <div class="header wow slideInLeft" data-wow-duration="1s" id="header">
         <div class="container">
             <div class="logo">
                 <h2><a href="#home">Mohamed</a></h2>
@@ -51,7 +53,7 @@
     <!-- End Header  -->
 
     <!-- Start Landing -->
-    <div class="landing" id="home">
+    <div class="landing wow bounceInUp" data-wow-duration="2s" id="home">
         <div class="container">
             <div class="title">
                 <h1>Hi, I'm <span>Mohamed</span></h1>
@@ -59,12 +61,12 @@
             </div>
             <div class="info">
                 <div class="left">
-                    <div class="box">
+                    <div class="box wow bounceInLeft" data-wow-duration="2s">
                         <p>bigoraphy</p>
                         <p>Hi, I'm <span>Mohamed</span>, frontend developer. passionate about designing beatutiful web
                             interfaces.</p>
                     </div>
-                    <div class="box">
+                    <div class="box wow bounceInLeft" data-wow-duration="3s">
                         <p>Services</p>
                         <p>UI/Ux Design.</p>
                         <p>Frontend Developer.</p>
@@ -72,23 +74,23 @@
                     </div>
                 </div>
                 <div class="center">
-                    <div class="box">
+                    <div class="box wow bounceInDown" data-wow-duration="3s">
                         <p>Years of Experinece</p>
                         <p>01+</p>
                     </div>
-                    <div class="box">
+                    <div class="box wow bounceInUp" data-wow-duration="2s">
                         <p>compleated Projects</p>
                         <p>18+</p>
                     </div>
                 </div>
                 <div class="right">
-                    <div class="box">
+                    <div class="box wow bounceInRight" data-wow-duration="3s">
                         <p>Contact</p>
                         <p>Egypt, Cairo, Nasr City.</p>
                         <p>m635379@gmail.com</p>
                         <p>(+2) 010 9363 8228</p>
                     </div>
-                    <div class="box">
+                    <div class="box wow bounceInRight" data-wow-duration="2s">
                         <p>Social Media</p>
                         <div class="social">
                             <a href="https://www.linkedin.com/in/mohamed-mostafa-55526a221/"><i
@@ -427,6 +429,10 @@
     <!-- End Footer  -->
 
     <!-- Main JS File  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 
