@@ -54,3 +54,7 @@ function manageImgsFilter() {
     img.parentElement.style.cursor = "pointer";
   });
 }
+
+let projects = document.querySelectorAll(".pro");
+let countOfProjects = document.querySelector(".count-of-projects");
+countOfProjects.innerHTML = `${projects.length}+`;
